@@ -1,0 +1,22 @@
+[package]
+name = "event-object"
+version = "0.1.0"
+authors = ["mzji"]
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+chrono = "^0.2"
+
+[dev-dependencies]
+crossbeam = "^0.2"
+rand = "^0.3"
+
+[target.'cfg(not(windows))'.dependencies]
+parking_lot = {version = "^0.3", features = ["nightly"]}
+ordermap = "^0.2"
+
+[target.'cfg(windows)'.dependencies]
+winapi = "^0.2"
+kernel32-sys = "^0.2"
