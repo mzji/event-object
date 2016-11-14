@@ -16,6 +16,7 @@ TODO.
 
 ## License
 
-This crate is licensed under [CC0][CC0]. ([LICENSE.CC0](LICENSE.CC0))
+This crate is licensed under [CC0][CC0]. Or you can read the full text of the
+license [here](LICENSE).
 
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
